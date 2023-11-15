@@ -7,59 +7,68 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Document</title>
 </head>
 
 <body>
-	<header>
-		<nav>
-			<a href=""><img src="./img/logo.svg" alt=""></a>
-			<ul>
-				<li><a href="">Overview</a></li>
-				<li><a href="">Price</a></li>
-				<li><a href="">FAQ</a></li>
-				<li><a href="">Contact Us</a></li>
+	<header class="header">
+		<nav class="nav">
+			<a href="#" class="nav-logo_link">
+				<img src="./img/logo.svg" alt="site logo" class="nav-logo_image">
+			</a>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="#" class="nav-link">Overview</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Price</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
 			</ul>
-			<div class="nav_buttons">
-				<button>Sign In</button>
-				<button>Sign Up</button>
+			<div class="nav-button_groups">
+				<button class="nav-button">Sign In</button>
+				<button class="nav-button">Sign Up</button>
 			</div>
 		</nav>
 		<div class="wrapper">
-			<h1 class="header__general">A magical new way to create a website.</h1>
-			<p class="header__text">Welcome to the next generation of website builders. It’s never been easier to create a
-				website. Expand your business
-				with wayto.me</p>
-			<button class="header__button">Try it for free</button>
-			<span class="header__trial">14-days free trial. No credit card required.</span>
+			<h1 class="header-title">A magical new way to create a website.</h1>
+			<p class="header-description">Welcome to the next generation of website builders. It’s never been easier to
+				create a website. Expand your business
+				with wayto.me
+			</p>
+			<button class="header-button">Try it for free</button>
+			<span class="header-trial">14-days free trial. No credit card required.</span>
 		</div>
 	</header>
-	<section class="difficulty">
-		<h1 class="header__general">Super easy</h1>
-		<p class="header__text">We made an intuitive and easy-to-use website builder with a visual interface. Building a
-			website with our tools is
-			easier than making a story on Instagram.</p>
-		<img src="./img/difficulty.png" alt="">
-	</section>
-	<section class="speed">
-		<h1 class="header__general">Super fast</h1>
-		<p class="header__text">No more workflows and unpredictable deadlines. Just make content and publish.</p>
-		<img src="./img/fast.png" alt="">
-	</section>
-	<section class="cost">
-		<h1 class="header__general">Low cost</h1>
-		<p class="header__text">Create and customize website in real time. You no longer need to spend money and time on
-			designers and developers. Free
-			website plan included.</p>
-		<img src="./img/cost.png" alt="">
-	</section>
-	<section class="try">
-		<h1 class="header__general">Meet the new way to create a website</h1>
-		<img src="./img/hand.png" alt="">
-		<button class="header__button">Try it for free</button>
-		<span class="header__trial">14-days free trial. No credit card required.</span>
-	</section>
+	<div class="section-wrapper">
+		<section class="difficult">
+			<h1 class="section-title">Super easy</h1>
+			<p class="section-descr">We made an intuitive and easy-to-use website builder with a visual interface. Building
+				a
+				website with our tools is
+				easier than making a story on Instagram.</p>
+			<img src="./img/difficulty.png" alt="information about difficult" class="section-image">
+		</section>
+		<section class="speed">
+			<h1 class="section-title">Super fast</h1>
+			<p class="section-descr">No more workflows and unpredictable deadlines. Just make content and publish.</p>
+			<img src="./img/fast.png" alt="information about work-speed" class="section-image">
+		</section>
+		<section class="cost">
+			<h1 class="section-title">Low cost</h1>
+			<p class="section-descr">Create and customize website in real time. You no longer need to spend money and time
+				on
+				designers and developers. Free
+				website plan included.</p>
+			<img src="./img/cost.png" alt="information about price" class="section-image">
+		</section>
+		<section class="testing">
+			<h1 class="section-title">Meet the new way to create a website</h1>
+			<img src="./img/hand.png" alt="hand down" class="section-image">
+			<button class="section-button">Try it for free</button>
+			<span class="section-span">14-days free trial. No credit card required.</span>
+		</section>
 	</div>
 </body>
 

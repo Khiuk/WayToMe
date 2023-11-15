@@ -1,5 +1,7 @@
 html {
   background-color: #d6fc52;
+  font-family: "Manrope", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .wrapper {
   width: 1200px;
@@ -8,38 +10,55 @@ html {
   padding: 20px;
 }
 
-nav {
+.nav {
   padding: 22px 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-ul {
+.nav-menu {
   display: flex;
+  flex-direction: row;
   list-style-type: none;
 }
-li {
+.nav-item {
   margin-right: 44px;
 }
-a {
+.nav-link {
   text-decoration: none;
+  color: #000;
 }
-.header__general {
+.nav-button {
+  padding: 1px 18px;
+  border-radius: 10px;
+  background: #000;
+  width: 92px;
+  height: 22px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header-title {
+  padding-top: 93px;
   margin-bottom: 62px;
   color: #000;
   text-align: center;
   font-size: 107px;
   font-weight: 400;
+  line-height: 110px;
+  letter-spacing: 7px;
 }
-.header__text {
+.header-description {
   margin-bottom: 45px;
   color: #000;
   text-align: center;
   font-size: 42px;
-  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 114.286% */
+  letter-spacing: 1.5px;
 }
-.header__button {
+.header-button {
   display: block;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -47,17 +66,41 @@ a {
   height: 88px;
   border-radius: 15px;
   background: #000;
-  color: #fff;
   box-shadow: 0px 208px 58px 0px rgba(0, 0, 0, 0.01);
   color: #d6fc52;
   font-size: 41px;
   font-weight: 400;
+  letter-spacing: 0.8px;
 }
-.header__trial {
+.header-trial {
+  padding-bottom: 934px;
   display: block;
   margin: 0 auto;
-  color: #000;
   text-align: center;
+  color: #000;
   font-size: 20px;
   font-weight: 400;
+}
+.section-wrapper {
+  padding: 0 229px;
+}
+.section-title {
+  color: #000;
+  text-align: center;
+  font-size: 107px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: 7px;
+}
+.section-descr {
+  color: #000;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 48px; /* 114.286% */
+  letter-spacing: 1.5px;
+}
+.section-image {
+  display: block;
+  margin: 0 auto;
 }
