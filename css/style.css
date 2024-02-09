@@ -103,4 +103,58 @@ html {
 .section-image {
   display: block;
   margin: 0 auto;
+  margin-bottom: 40px;
+}
+.section-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  width: 761px;
+  height: 88px;
+  box-shadow: 0 208px 58px 0 rgba(0, 0, 0, 0.01);
+  background: #000;
+  font-size: 41px;
+  line-height: 141%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #d6fc52;
+}
+.section-span {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 79px;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+}
+.offer {
+  padding: 22px 101px 22px 615px;
+  margin-bottom: 74px;
+  background-color: #000;
+}
+.offer-title {
+  font-size: 62px;
+  line-height: 260%;
+  text-transform: uppercase;
+  text-align: right;
+  color: #d6fc52;
+}
+.more-descr {
+  font-size: 37px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+.more-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 38px;
+  line-height: 126%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+  border-radius: 0;
 }
